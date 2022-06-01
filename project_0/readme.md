@@ -1,7 +1,7 @@
 # Проект 0. Угадай число 
 
 ## Оглавление 
-[1. Описание проекта](https://github.com/Anturui/sf_data_science/blob/main/README.md#Описание-проекта)
+[1. Описание проекта](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Описание-проекта)
 
 
 
