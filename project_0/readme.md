@@ -2,15 +2,16 @@
 
 ## Оглавление 
 [1. Описание проекта](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Описание-проекта)
+[2.Какой кейс решаем?](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Какой-кейс-решаем?)
 
 
 
 ### Описание проекта  
 Угадать число загаданное компьютером за минимальное количество попыток
 
-[к_оглавлению](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Оглавление)
+[К оглавлению](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Оглавление)
 
-### Какой кейс решаем?
+**Какой кейс решаем?**
 Нужно написать программу, которая угадывает число за минимальное число попыток 
 
 **Условие соревнования:** 
@@ -25,4 +26,4 @@
 
 ### Краткая информация о данных
 
-[к_оглавлению](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Оглавление)
+[К оглавлению](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Оглавление)
