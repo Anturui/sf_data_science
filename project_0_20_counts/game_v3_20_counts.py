@@ -4,7 +4,7 @@
 import numpy as np
 
 def random_predict(number:int=1) -> int:
-    """Рандомно угадываем число
+    """ Угадываем число за как можно меньшее число попыток
     
     Args:
          number (int, optional): Загаданное число. Defaults to 1.
