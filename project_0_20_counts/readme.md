@@ -13,7 +13,8 @@
 
 [6. Что практикуем](https://github.com/Anturui/sf_data_science/tree/main/project_0_20_counts/readme.md#Что-практикуем)
 
-
+**Описание проекта**
+Выполняется финальное задание из раздела 8 - итоги раздела
 
 :arrow_up:[К оглавлению](https://github.com/Anturui/sf_data_science/tree/main/project_0_20_counts/readme.md#Оглавление)
 
