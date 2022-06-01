@@ -12,7 +12,7 @@
 ### Описание проекта  
 Угадать число загаданное компьютером за минимальное количество попыток
 
-[К оглавлению](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Оглавление)
+:arrow_up:[К оглавлению](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Оглавление)
 
 ### Какой кейс решаем?
 Нужно написать программу, которая угадывает число за минимальное число попыток 
@@ -29,4 +29,4 @@
 
 ### Краткая информация о данных
 
-[К оглавлению](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Оглавление)
+:arrow_up:[К оглавлению](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Оглавление)
