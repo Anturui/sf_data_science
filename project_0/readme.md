@@ -2,7 +2,10 @@
 
 ## Оглавление 
 [1. Описание проекта](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Описание-проекта)
-[2.Какой кейс решаем?](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Какой-кейс-решаем?)
+
+[2. Какой кейс решаем?](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Какой-кейс-решаем?)
+
+[3. Краткая информация о данных](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Краткая-информация-о-данных)
 
 
 
@@ -11,7 +14,7 @@
 
 [К оглавлению](https://github.com/Anturui/sf_data_science/blob/main/project_0/readme.md#Оглавление)
 
-**Какой кейс решаем?**
+### Какой кейс решаем?
 Нужно написать программу, которая угадывает число за минимальное число попыток 
 
 **Условие соревнования:** 
