@@ -14,16 +14,22 @@ def random_predict(number:int=1) -> int:
     """
     #print(number)
     count = 0
-
+    min=1
+    max=101
+    predict_number = np.random.randint(min, max) # предполагаемое число
     while True:
         count += 1
-        predict_number = np.random.randint(1, 101) # предполагаемое число
+         
         if number == predict_number:
             break # выход из цикла, если угадали
         if number > predict_number:
-            
+            min=predict_number
+            predict_number=np.random.randint(min, max)
+        if number < predict_number:
+            max=predict_number
+            predict_number=np.random.randint(min, max)
     return(count)
-print(f'Количество попыток: {random_predict()}')
+#print(f'Количество попыток: {random_predict()}')
 
 def score_game(random_predict) -> int:
      """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
