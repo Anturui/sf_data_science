@@ -15,8 +15,8 @@ def random_predict(number:int=1) -> int:
     """
     #print(number)
     count = 0
-    min=1
-    max=101
+    min = 1
+    max = 101
     predict_number = np.random.randint(min, max) # предполагаемое число
     while True:
         count += 1
