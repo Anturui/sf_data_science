@@ -24,11 +24,11 @@ def random_predict(number:int=1) -> int:
         if number == predict_number:
             break # выход из цикла, если угадали
         if number > predict_number:
-            min=predict_number
-            predict_number=np.random.randint(min, max)
+            min=predict_number # перезадаем нижнюю границу диапазона поиска
+            predict_number=np.random.randint(min, max) # генерируем новое число 
         if number < predict_number:
-            max=predict_number
-            predict_number=np.random.randint(min, max)
+            max=predict_number # перезадаем верхнюю границу диапазона поиска
+            predict_number=np.random.randint(min, max) # генерируем новое число 
     return(count)
 #print(f'Количество попыток: {random_predict()}')
 
