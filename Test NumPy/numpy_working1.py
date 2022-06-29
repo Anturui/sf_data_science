@@ -39,3 +39,6 @@ print(np.bool(True) == np.bool_(True))
 # А типы — нет:
 print(type(np.bool(True)) == type(np.bool_(True)))
 # False
+
+arr = np.array([1,5,2,9,10])
+print(arr.dtype)
