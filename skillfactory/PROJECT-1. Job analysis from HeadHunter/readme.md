@@ -85,8 +85,8 @@
 18. [Тепловая карта желаемой ЗП в зависимости от возраста и пола](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/pivot_sex_age.html)
 19. [Диаграмма зависомсти зарплаты от пола и готовностью к волонтерству](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/table_volunteering.html)
 20. [Диаграмма зависомсти зарплаты от пола и готовностью к стажировке](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/table_internship.html)
-21. [Соотношение между претендентами на IT должность и другими специальностями](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/pie-it.html)
-22. [Соотношение желаемых медианных зарплат для IT-должности и другими специальностями](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/bar-it.html)
+21. [Соотношение между претендентами на IT должность и другими специальностями](https://rawcdn.githack.com/Anturui/sf_data_science/c1138c32d6113fb5e316821536ee957c5bc88062/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/pie-it.html)
+22. [Соотношение желаемых медианных зарплат для IT-должности и другими специальностями](https://rawcdn.githack.com/Anturui/sf_data_science/c1138c32d6113fb5e316821536ee957c5bc88062/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/bar-it.html)
 
 **5. Очистка данных**
 1. Найдены полные дубликаты в таблице с резюме и удалены.
