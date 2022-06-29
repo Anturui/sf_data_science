@@ -73,7 +73,7 @@
 **Итоги** 
 1. Проект выложен на GitHub
 2. Dataset помещен в хранилище Google Disk. 
-Ссылка на dataset: (https://drive.google.com/file/d/1C_-I5GdYaTnFeo-wj8ERTPub3HyXHMx0/view?usp=sharing)
+Ссылка на dataset: (https://drive.google.com/file/d/1C_-I5GdYaTnFeo-wj8ERTPub3HyXHMx0/view?usp=sharing) 
 3. Оформлен readme.md 
 
 :arrow_up:[К оглавлению]()
