@@ -67,7 +67,7 @@
 **Список рисунков со ссылками (все названия рисунков ниже такие же, как в коде ноутбука):**
 
 1. [Распределение возраста среди соискателей (гистограмма)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_age_dist.html)
-2. [Распределение возраста среди соискателей (Тьюки)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_age_dist_box.html)
+2. [Распределение возраста среди соискателей (Тьюки)](https://rawcdn.githack.com/Anturui/sf_data_science/9c8d7ad56139c27cdc678c217ad67d4ebd4a02a6/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_age_dist_box.html)
 3. [Распределение опыта работы среди соискателей (гистограмма)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_exp.html)
 4. [Распределение опыта работы среди соискателей (Тьюки)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_exp_box.html)
 5. [Распределение заработной платы в рублях (гистограмма)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_salary.html)
