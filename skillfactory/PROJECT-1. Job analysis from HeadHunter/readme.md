@@ -63,6 +63,31 @@
 9. Дополнительно построены столбчатые диаграммы и телповая карта, демонстрирующие влияние на делаемую зарплату половой принадленжности. 
 10. Построена круговая диаграмма соотношения запросов на вакансии в сфере IT и не IT.
 
+**Список рисунков со ссылками:**
+
+1. [Распределение возраста среди соискателей (гистограмма)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_age_dist.html)
+2. [Распределение возраста среди соискателей (Тьюки)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_age_dist_box.html)
+3. [Распределение опыта работы среди соискателей (гистограмма)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_exp.html)
+4. [Распределение опыта работы среди соискателей (Тьюки)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_exp_box.html)
+5. [Распределение заработной платы в рублях (гистограмма)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_salary.html)
+6. [Распределение зарплаты в рублях среди соискателей (Тьюки)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_salary_box.html)
+7. [Распределение зарплаты в рублях среди соискателей с ЗП больше 1 млн. руб. (диаграмма)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_salary_million.html)
+8. [Распределение зарплаты в рублях среди соискателей (гистограмма)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_salary_fht.html)
+9. [Диаграмма желаемой ЗП от уровня образования](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/edu_salary.html)
+10. [Медианная желаемая заработная плата в рублях для разных городов](https://github.com/Anturui/sf_data_science/blob/main/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/city_work_median.html)
+11. [Средняя желаемая заработная плата в рублях для разных городов](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/city_work_mean.html)
+12. [Максимальная желаемая заработная плата в рублях для разных городов](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/city_work_max.html)
+13. [Минимальная желаемая заработная плата в рублях для разных городов](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/city_work_min.html)
+14. [Соотношение между готовностью к командировкам, готовностью к переезду и желаемой зарплаты](https://github.com/Anturui/sf_data_science/blob/main/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/move_bt.html)
+15. [Тепловая карта желаемой ЗП в зависимости от возраста и образования](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/age_edu.html)
+16. [Зависимость опыта работы от возраста (в годах)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/expirience_age.html)
+17. [Зависимость желаемой зарплаты от пола и образования](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/table_sex_salary.html)
+18. [Тепловая карта желаемой ЗП в зависимости от возраста и пола](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/pivot_sex_age.html)
+19. [Диаграмма зависомсти зарплаты от пола и готовностью к волонтерству](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/table_volunteering.html)
+20. [Диаграмма зависомсти зарплаты от пола и готовностью к стажировке](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/table_internship.html)
+21. [Соотношение между претендентами на IT должность и другими специальностями](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/pie-it.html)
+22. [Соотношение желаемых медианных зарплат для IT-должности и другими специальностями](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/bar-it.html)
+
 **5. Очистка данных**
 1. Найдены полные дубликаты в таблице с резюме и удалены.
 2. Обнаружены пропуски в трёх столбцах: «Опыт работы (месяц)», «Последнее/нынешнее место работы», «Последняя/нынешняя должность». Удалены строки, где есть пропуск в столбцах с местом работы и должностью. Пропуски в столбце с опытом работы заполнены медианным значением
