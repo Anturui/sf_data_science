@@ -63,7 +63,7 @@
 9. Дополнительно построены столбчатые диаграммы и телповая карта, демонстрирующие влияние на делаемую зарплату половой принадленжности. 
 10. Построена круговая диаграмма соотношения запросов на вакансии в сфере IT и не IT.
 
-**Список рисунков со ссылками:**
+**Список рисунков со ссылками (все названия рисунков ниже такие же, как в коде ноутбука):**
 
 1. [Распределение возраста среди соискателей (гистограмма)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_age_dist.html)
 2. [Распределение возраста среди соискателей (Тьюки)](https://rawcdn.githack.com/Anturui/sf_data_science/11ae0ad06f5749b5c2340d897f9fa8db2d3ad878/skillfactory/PROJECT-1.%20Job%20analysis%20from%20HeadHunter/html%20pictures/count_age_dist_box.html)
