@@ -62,8 +62,7 @@ lng — географическая долгота отеля.
 Для оценки качества модели — точности прогнозов, сделанных моделью, — мы будем использовать метрику (некий числовой показатель), которая называется MAPE (mean absolute percentage error), средняя абсолютная процентная ошибка. Эту метрику очень легко интерпретировать.
 
 
- $MAPE =  \frac{{1}}{n} \sum\limits_{i=1}^n\frac{y_{true_i} - y_{pred_i}}{y_{true_i}} * 100\\% $ 
+ <div align="center"> <font size="3"> $MAPE =  \frac{{1}}{n} \sum\limits_{i=1}^n\frac{y_{true_i} - y_{pred_i}}{y_{true_i}} * 100\\% $ </font> </div>
 
-где $y_{true_i}$ — фактические значения прогноза, a $y_{pred_i}$ — предсказанные.  
+<font size="1"> где $y_{true_i}$ — фактические значения прогноза, a $y_{pred_i}$ — предсказанные.  </font>  
 
-<div align="center"> Title inside div!  </div>
