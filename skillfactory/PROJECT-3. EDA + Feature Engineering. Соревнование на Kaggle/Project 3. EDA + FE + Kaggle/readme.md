@@ -5,7 +5,7 @@ Case study: creating the first model using machine learning algorithms.
 
 RESULTS OF WORK ON THIS PROJECT:
 1. The first model based on machine learning algorithms has been created
-2. Took part in a competition on Kaggle (score: )
+2. Took part in a competition on Kaggle (score: 11.51996)
 3. Gained experience in preparing data to improve the machine learning model
 
 <div align="center"> <h2 align="center"> Problem description </h2> </div>
