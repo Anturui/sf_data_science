@@ -1,72 +1,77 @@
-<div align="center"> <h1 align="center">  Анализ данных по рейтингам отелей с сайта booking.com </h1> </div> 
+<div align="center"> <h1 align="center"> Analysis of hotel ratings data from the website booking.com </h1> </div>
 
 
-Кейс: создание первой модели, использующей алгоритмы машинного обучения.
+Case study: creating the first model using machine learning algorithms.
 
-РЕЗУЛЬТАТЫ РАБОТЫ НАД ДАННЫМ ПРОЕКТОМ:
-1. Создадана первая модель, основанную на алгоритмах машинного обучения
-2. Принял участие в соревновании на Kaggle (score: )
-3. Получил опыт подготовки данных, чтобы улучшить модель машинного обучения
+RESULTS OF WORK ON THIS PROJECT:
+1. The first model based on machine learning algorithms has been created
+2. Took part in a competition on Kaggle (score: )
+3. Gained experience in preparing data to improve the machine learning model
 
-<div align="center"> <h2 align="center"> Описание проблемы </h2> </div>
+<div align="center"> <h2 align="center"> Problem description </h2> </div>
 
-Одна из проблем компании booking.com — это нечестные отели, которые накручивают себе рейтинг. Одним из способов обнаружения таких отелей является построение модели, которая предсказывает рейтинг отеля. Если предсказания модели сильно отличаются от фактического результата, то, возможно, отель ведёт себя нечестно, и необходимо провести дополнительную проверку корректности высталенной оценки.
+One of the company's problems booking.com — these are dishonest hotels that wind up their ratings. One of the ways to detect such hotels is to build a model that predicts the rating of the hotel. If the model's predictions are very different from the actual result, then perhaps the hotel is behaving dishonestly, and it is necessary to conduct an additional check of the correctness of the lined estimate.
 
-<div align="center"> <h2 align="center"> Задача </h2> </div>
-Имеется датасет, в котором содержатся сведения о 515 000 отзывов на отели Европы. Модель машинного обучения должна предсказывать рейтинг отеля по данным сайта Booking.com на основе имеющихся в датасете данных. Навыки разведывательного анализа помогут улучшить модель.
+<div align="center"> <h2 align="center"> Task </h2> </div>
+There is a dataset that contains information about 515,000 reviews of hotels in Europe. The machine learning model should predict the rating of the hotel according to the website Booking.com based on the data available in the dataset. Intelligence analysis skills will help improve the model.
 
-### [Ссылка на датасет](https://drive.google.com/file/d/1Qj0iYEbD64eVAaaBylJeIi3qvMzxf2C_/view?usp=sharing)
+### [Link to the dataset](https://drive.google.com/file/d/1Qj0iYEbD64eVAaaBylJeIi3qvMzxf2C_/view?usp=sharing )
 
-<div align="center"> <h2 align="center"> Описание датасета </h2> </div>
-<div align="center"> <h3 align="center"> Признаки, которые есть в датасете </h3> </div>
-hotel_address — адрес отеля;
+<div align="center"> <h2 align="center"> Description of the dataset </h2> </div>
+<div align="center"> <h3 align="center"> Signs that are in the dataset </h3> </div>
+hotel_address — the address of the hotel;
 
-review_date — дата, когда рецензент разместил соответствующий отзыв;
+review_date — the date when the reviewer posted the corresponding review;
 
-average_score — средний балл отеля, рассчитанный на основе последнего комментария за последний год;
+average_score — the average score of the hotel calculated based on the last comment for the last year;
 
-hotel_name — название отеля;
+hotel_name — the name of the hotel;
 
-reviewer_nationality — страна рецензента;
+reviewer_nationality — reviewer's country;
 
-negative_review — отрицательный отзыв, который рецензент дал отелю;
+negative_review — negative review that the reviewer gave to the hotel;
 
-review_total_negative_word_counts — общее количество слов в отрицательном отзыв;
+review_total_negative_word_counts — the total number of words in a negative review;
 
-positive_review — положительный отзыв, который рецензент дал отелю;
+positive_review — positive review that the reviewer gave to the hotel;
 
-review_total_positive_word_counts — общее количество слов в положительном отзыве;
+review_total_positive_word_counts — the total number of words in a positive review;
 
-reviewer_score — оценка, которую рецензент поставил отелю на основе своего опыта;
+reviewer_score — the rating that the reviewer gave to the hotel based on his experience;
 
-total_number_of_reviews_reviewer_has_given — количество отзывов, которые рецензенты дали в прошлом;
+total_number_of_reviews_reviewer_has_given — the number of reviews that reviewers have given in the past;
 
-total_number_of_reviews — общее количество действительных отзывов об отеле;
+total_number_of_reviews — total number of valid hotel reviews;
 
-tags — теги, которые рецензент дал отелю;
+tags — tags that the reviewer gave to the hotel;
 
-days_since_review — количество дней между датой проверки и датой очистки;
+days_since_review — the number of days between the verification date and the cleaning date;
 
-additional_number_of_scoring — есть также некоторые гости, которые просто поставили оценку сервису, но не оставили отзыв. Это число указывает, сколько там действительных оценок без проверки.
+additional_number_of_scoring — there are also some guests who just rated the service, but did not leave a review. This number indicates how many valid estimates there are without verification.
 
-lat — географическая широта отеля;
+lat — geographical latitude of the hotel;
 
-lng — географическая долгота отеля.
+lng is the geographical longitude of the hotel.
 
-<div align="center"> <h2 align="center"> Этапы работы над проектом </h2> </div>
+<div align="center"> <h2 align="center"> Stages of work on the project </h2> </div>
 
-1. РАЗДЕЛЕНИЕ НАБОРА ДАННЫХ
-Прежде всего, для создания модели необходимо было разделить датафрейм на набор данных, которые использовались для обучения модели, именуемый 'X', и на целевую переменную — величину, значение которой мы будем предсказывать, 'y' (в нашем случае это рейтинг отелей).
-Далее каждый из полученных наборов бал разделен на тренировочный (train, используется для обучения модели) и тестовый (test, используется для оценки точности модели). Такое деление осуществлялось с помощью специального метода train_test_split() библиотеки sklearn. В параметрах метода (параметр test_size) мы указываем, какую часть исходного датафрейма нужно оставить для тестирования модели. В нашем коде эта часть составляет 20 %, или 0.2.
+1. SPLITTING THE DATA SET
+First of all, to create a model, it was necessary to divide the dataframe into a data set that was used to train the model, called 'X', and into a target variable, the value of which we will predict, 'y' (in our case, this is the rating of hotels).
+Further, each of the obtained sets of scores is divided into training (train, used to train the model) and test (test, used to evaluate the accuracy of the model). This division was carried out using a special method train_test_split() of the sklearn library. In the method parameters (the test_size parameter), we specify which part of the original dataframe should be left for testing the model. In our code, this part is 20%, or 0.2.
 
-2. СОЗДАНИЕ И ОБУЧЕНИЕ МОДЕЛИ
-Сам процесс создания и тестирования модели занимает всего четыре строчки кода. В качестве алгоритма применялся популярный и довольно мощный алгоритм RandomForestRegressor. Он реализован в библиотеке sklearn.
+2. CREATING AND TRAINING A MODEL
+The process of creating and testing a model takes only four lines of code. The popular and rather powerful RandomForestRegressor algorithm was used as an algorithm. It is implemented in the sklearn library.
 
-3. ОЦЕНКА КАЧЕСТВА МОДЕЛИ
-Для оценки качества модели — точности прогнозов, сделанных моделью, — мы будем использовать метрику (некий числовой показатель), которая называется MAPE (mean absolute percentage error), средняя абсолютная процентная ошибка. Эту метрику очень легко интерпретировать.
+3. MODEL QUALITY ASSESSMENT
+To assess the quality of the model — the accuracy of the predictions made by the model — we will use a metric (some numerical indicator) called MAPE (mean absolute percentage error), the average absolute percentage error. This metric is very easy to interpret.
 
 
- <div align="center"><h1 align="center">  $$MAPE = \frac{{1}}{n} \sum\limits_{i=1}^n\frac{y_{true_i} - y_{pred_i}}{y_{true_i}} * 100\% $$ </h1></div>
+<div align="center"><h1 align="center"> $$MAPE = \frac{{1}}{n} \sum\limits_{i=1}^n\frac{y_{true_i} - y_{pred_i}}{y_{true_i}} * 100\% $$ </h1></div>
 
-где $y_{true_i}$ — фактические значения прогноза, a $y_{pred_i}$ — предсказанные.  
+where $y_{true_i}$ are the actual values of the forecast, and $y_{pred_i}$ are the predicted values.
 
+<div align="center"><h3 align="center"> CONCLUSIONS: </h3></div>
+
+1. My first machine learning case was created: the dataset was cleaned, several new features were extracted from it and data for model training was prepared.
+2. I took part in a machine learning competition on [Kaggle](https://www.kaggle.com/competitions/sf-booking/leaderboard).
+3. Received MAPE: 11.51996
