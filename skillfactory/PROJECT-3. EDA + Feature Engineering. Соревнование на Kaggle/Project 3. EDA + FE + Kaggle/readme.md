@@ -58,8 +58,10 @@ lng is the geographical longitude of the hotel.
 <div align="justify"> First of all, to create a model, it was necessary to divide the dataframe into a data set that was used to train the model, called 'X', and into a target variable, the value of which we will predict, 'y' (in our case, this is the rating of hotels).
 Further, each of the obtained sets of scores is divided into training (train, used to train the model) and test (test, used to evaluate the accuracy of the model). This division was carried out using a special method train_test_split() of the sklearn library. In the method parameters (the test_size parameter), we specify which part of the original dataframe should be left for testing the model. In our code, this part is 20%, or 0.2. </div>
 
+
 2. CREATING AND TRAINING A MODEL
 <div align="justify"> The process of creating and testing a model takes only four lines of code. The popular and rather powerful RandomForestRegressor algorithm was used as an algorithm. It is implemented in the sklearn library. </div>
+
 
 3. MODEL QUALITY ASSESSMENT
 <div align="justify"> To assess the quality of the model — the accuracy of the predictions made by the model — we will use a metric (some numerical indicator) called MAPE (mean absolute percentage error), the average absolute percentage error. This metric is very easy to interpret. </div>
