@@ -66,3 +66,4 @@ $MAPE = 100\%\\ * \frac{{1}}{n} \sum\limits_{i=1}^n\frac{y_{true_i} - y_{pred_i}
 где $y_{true_i}$ — фактические значения прогноза, a $y_{pred_i}$ — предсказанные.  
 
 <center> Выравнивание линии по центру </ center> 
+<font color=Blue size=5> Я синий </ font> 
