@@ -66,8 +66,4 @@ lng — географическая долгота отеля.
 
 где $y_{true_i}$ — фактические значения прогноза, a $y_{pred_i}$ — предсказанные.  
 
-<div class="myWrapper" markdown="1">
-# my markdown content
-
-this content is wrapped into a div with class "myWrapper"
-</div>
+<div align="center"> <h1 align="center"> Title inside div! </h1> </div>
