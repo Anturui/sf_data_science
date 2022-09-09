@@ -12,7 +12,7 @@ RESULTS OF WORK ON THIS PROJECT:
 One of the company's problems booking.com — these are dishonest hotels that wind up their ratings. One of the ways to detect such hotels is to build a model that predicts the rating of the hotel. If the model's predictions are very different from the actual result, then perhaps the hotel is behaving dishonestly, and it is necessary to conduct an additional check of the correctness of the lined estimate.
 
 <div align="center"> <h2 align="center"> Task </h2> </div>
-<p style='text-align: center;'> There is a dataset that contains information about 515,000 reviews of hotels in Europe. The machine learning model should predict the rating of the hotel according to the website Booking.com based on the data available in the dataset. Intelligence analysis skills will help improve the model.  </p>
+<div align="justify"> There is a dataset that contains information about 515,000 reviews of hotels in Europe. The machine learning model should predict the rating of the hotel according to the website Booking.com based on the data available in the dataset. Intelligence analysis skills will help improve the model.</div>
 
 ### [Link to the dataset](https://drive.google.com/file/d/1Qj0iYEbD64eVAaaBylJeIi3qvMzxf2C_/view?usp=sharing )
 
