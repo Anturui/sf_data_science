@@ -1,7 +1,7 @@
 <div align="center"> <h1 align="center"> Analysis of hotel ratings data from the website booking.com </h1> </div>
 <div align="center"> <h3 align="center"> by Aleksey Kolychev </h3> </div>
 
-Case study: creating the first model using machine learning algorithms.
+<div style="font-size: 2em;"> Case study: creating the first model using machine learning algorithms.</div>
 
 RESULTS OF WORK ON THIS PROJECT:
 1. The first model based on machine learning algorithms has been created
@@ -9,7 +9,7 @@ RESULTS OF WORK ON THIS PROJECT:
 3. Gained experience in preparing data to improve the machine learning model
 
 <div align="center"> <h2 align="center"> Problem description </h2> </div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; One of the ***booking.com*** company's problems  — these are dishonest hotels that wind up their ratings. One of the ways to detect such hotels is to build a model that predicts the rating of the hotel. If the model's predictions are very different from the actual result, then perhaps the hotel is behaving dishonestly, and it is necessary to conduct an additional check of the correctness of the lined estimate.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; One of the booking.com company's problems  — these are dishonest hotels that wind up their ratings. One of the ways to detect such hotels is to build a model that predicts the rating of the hotel. If the model's predictions are very different from the actual result, then perhaps the hotel is behaving dishonestly, and it is necessary to conduct an additional check of the correctness of the lined estimate.
 
 <div align="center"> <h2 align="center"> Task </h2> </div>
 <div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There is a dataset that contains information about 515,000 reviews of hotels in Europe. The machine learning model should predict the rating of the hotel according to the website Booking.com based on the data available in the dataset. Intelligence analysis skills will help improve the model.</div>
