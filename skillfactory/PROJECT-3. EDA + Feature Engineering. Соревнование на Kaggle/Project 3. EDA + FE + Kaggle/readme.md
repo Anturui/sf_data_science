@@ -77,4 +77,4 @@ where $y_{true_i}$ are the actual values of the forecast, and $y_{pred_i}$ are t
 2. I took part in a machine learning competition on [Kaggle](https://www.kaggle.com/competitions/sf-booking/leaderboard).
 3. Received MAPE: 11.51996
 
-<span style="color:#59afe1"> Этот текст цветной.</span>
+<p dir="ltr"><li><u><font size="4" color= "40E0D0">Создание блока с отступом.</font></u></li></p>
