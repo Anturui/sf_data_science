@@ -77,11 +77,22 @@ where $y_{true_i}$ are the actual values of the forecast, and $y_{pred_i}$ are t
 2. I took part in a machine learning competition on [Kaggle](https://www.kaggle.com/competitions/sf-booking/leaderboard).
 3. Received MAPE: 11.51996
 
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-  </head>
-  <body>
-    <p>Изменить цвет <span style="color: brown">части текста</span> в HTML</p>
-  </body>
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Размер текста</title>
+  <style>
+   body {
+    font-size: 1.1rem; /* Размер основного шрифта */
+   }
+   h2 {
+    font-size: 1.6rem; /* Размер заголовка */
+   }
+  </style>
+ </head>
+ <body>
+  <h2>Заголовок</h2>
+  <p>Пример текста</p>
+ </body>
 </html>
