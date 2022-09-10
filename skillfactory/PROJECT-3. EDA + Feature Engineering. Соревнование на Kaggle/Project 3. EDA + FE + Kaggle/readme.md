@@ -18,39 +18,40 @@ One of the company's problems booking.com — these are dishonest hotels that wi
 
 <div align="center"> <h2 align="center"> Description of the dataset </h2> </div>
 <div align="center"> <h3 align="center"> Signs that are in the dataset </h3> </div>
-hotel_address — the address of the hotel;
 
-review_date — the date when the reviewer posted the corresponding review;
+*hotel_address* — the address of the hotel;
 
-average_score — the average score of the hotel calculated based on the last comment for the last year;
+*review_date* — the date when the reviewer posted the corresponding review;
 
-hotel_name — the name of the hotel;
+*average_score* — the average score of the hotel calculated based on the last comment for the last year;
 
-reviewer_nationality — reviewer's country;
+*hotel_name* — the name of the hotel;
 
-negative_review — negative review that the reviewer gave to the hotel;
+*reviewer_nationality* — reviewer's country;
 
-review_total_negative_word_counts — the total number of words in a negative review;
+*negative_review* — negative review that the reviewer gave to the hotel;
 
-positive_review — positive review that the reviewer gave to the hotel;
+*review_total_negative_word_counts* — the total number of words in a negative review;
 
-review_total_positive_word_counts — the total number of words in a positive review;
+*positive_review *— positive review that the reviewer gave to the hotel;
 
-reviewer_score — the rating that the reviewer gave to the hotel based on his experience;
+*review_total_positive_word_counts* — the total number of words in a positive review;
 
-total_number_of_reviews_reviewer_has_given — the number of reviews that reviewers have given in the past;
+*reviewer_score* — the rating that the reviewer gave to the hotel based on his experience;
 
-total_number_of_reviews — total number of valid hotel reviews;
+*total_number_of_reviews_reviewer_has_given* — the number of reviews that reviewers have given in the past;
 
-tags — tags that the reviewer gave to the hotel;
+*total_number_of_reviews* — total number of valid hotel reviews;
 
-days_since_review — the number of days between the verification date and the cleaning date;
+*tags* — tags that the reviewer gave to the hotel;
 
-additional_number_of_scoring — there are also some guests who just rated the service, but did not leave a review. This number indicates how many valid estimates there are without verification.
+*days_since_review* — the number of days between the verification date and the cleaning date;
 
-lat — geographical latitude of the hotel;
+*additional_number_of_scoring* — there are also some guests who just rated the service, but did not leave a review. This number indicates how many valid estimates there are without verification.
 
-lng is the geographical longitude of the hotel.
+*lat* — geographical latitude of the hotel;
+
+*lng* is the geographical longitude of the hotel.
 
 <div align="center"> <h2 align="center"> Stages of work on the project </h2> </div>
 <div align="justify"> </div>
