@@ -69,7 +69,7 @@ Further, each of the obtained sets of scores is divided into training (train, us
 
 <div align="center"><h1 align="center"> $$MAPE = \frac{{1}}{n} \sum\limits_{i=1}^n\frac{y_{true_i} - y_{pred_i}}{y_{true_i}} * 100\% $$ </h1></div>
 
-where $y_{true_i}$ are the actual values of the forecast, and $y_{pred_i}$ are the predicted values.
+where ***$y_{true_i}$*** are the actual values of the forecast, and ***$y_{pred_i}$*** are the predicted values.
 
 <div align="center"><h3 align="center"> CONCLUSIONS: </h3></div>1
 
@@ -77,22 +77,3 @@ where $y_{true_i}$ are the actual values of the forecast, and $y_{pred_i}$ are t
 2. I took part in a machine learning competition on [Kaggle](https://www.kaggle.com/competitions/sf-booking/leaderboard).
 3. Received MAPE: 11.51996
 
-<!DOCTYPE html>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>Размер текста</title>
-  <style>
-   body {
-    font-size: 1.1rem; /* Размер основного шрифта */
-   }
-   h2 {
-    font-size: 2.6rem; /* Размер заголовка */
-   }
-  </style>
- </head>
- <body>
-  <h2>Заголовок</h2>
-  <p>Пример текста</p>
- </body>
-</html>
