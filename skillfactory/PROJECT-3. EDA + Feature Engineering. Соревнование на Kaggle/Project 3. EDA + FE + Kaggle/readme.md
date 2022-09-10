@@ -87,7 +87,7 @@ where $y_{true_i}$ are the actual values of the forecast, and $y_{pred_i}$ are t
     font-size: 1.1rem; /* Размер основного шрифта */
    }
    h2 {
-    font-size: 1.6rem; /* Размер заголовка */
+    font-size: 2.6rem; /* Размер заголовка */
    }
   </style>
  </head>
