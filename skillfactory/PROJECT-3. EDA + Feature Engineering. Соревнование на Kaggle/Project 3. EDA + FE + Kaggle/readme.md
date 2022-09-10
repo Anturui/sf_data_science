@@ -1,5 +1,5 @@
 <div align="center"> <h1 align="center"> Analysis of hotel ratings data from the website booking.com </h1> </div>
-
+<div align="center"> <h3 align="center"> by Aleksey Kolychev </h3> </div>
 
 Case study: creating the first model using machine learning algorithms.
 
