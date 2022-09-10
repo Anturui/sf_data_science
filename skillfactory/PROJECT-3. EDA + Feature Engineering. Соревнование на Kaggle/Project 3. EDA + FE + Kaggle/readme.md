@@ -61,15 +61,15 @@ Further, each of the obtained sets of scores is divided into training (train, us
 <div align="justify"> </div>
 2. CREATING AND TRAINING A MODEL
 
-<div align="justify"> The process of creating and testing a model takes only four lines of code. The popular and rather powerful RandomForestRegressor algorithm was used as an algorithm. It is implemented in the sklearn library. </div>
+<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The process of creating and testing a model takes only four lines of code. The popular and rather powerful RandomForestRegressor algorithm was used as an algorithm. It is implemented in the sklearn library. </div>
 <div align="justify"> </div>
 3. MODEL QUALITY ASSESSMENT
-<div align="justify"> To assess the quality of the model — the accuracy of the predictions made by the model — we will use a metric (some numerical indicator) called MAPE (mean absolute percentage error), the average absolute percentage error. This metric is very easy to interpret. </div>
+<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To assess the quality of the model — the accuracy of the predictions made by the model — we will use a metric (some numerical indicator) called MAPE (mean absolute percentage error), the average absolute percentage error. This metric is very easy to interpret. </div>
 
 
 <div align="center"><h1 align="center"> $$MAPE = \frac{{1}}{n} \sum\limits_{i=1}^n\frac{y_{true_i} - y_{pred_i}}{y_{true_i}} * 100\% $$ </h1></div>
 
-where $y_{true_i}$ are the actual values of the forecast, and $y_{pred_i}$ are the predicted values.
+where <h1 align="center">$y_{true_i}$</h1> are the actual values of the forecast, and <h1 align="center">$y_{pred_i}$</h1> are the predicted values.
 
 <div align="center"><h3 align="center"> CONCLUSIONS: </h3></div>
 
