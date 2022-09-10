@@ -69,7 +69,7 @@ Further, each of the obtained sets of scores is divided into training (train, us
 
 <div align="center"><h1 align="center"> $$MAPE = \frac{{1}}{n} \sum\limits_{i=1}^n\frac{y_{true_i} - y_{pred_i}}{y_{true_i}} * 100\% $$ </h1></div>
 
-where <div style="font-size: 16px;">$y_{true_i}$</div> are the actual values of the forecast, and <div style="font-size: 16px;">$y_{pred_i}$</div> are the predicted values.
+where ###$y_{true_i}$### are the actual values of the forecast, and $y_{pred_i}$ are the predicted values.
 
 <div align="center"><h3 align="center"> CONCLUSIONS: </h3></div>
 
