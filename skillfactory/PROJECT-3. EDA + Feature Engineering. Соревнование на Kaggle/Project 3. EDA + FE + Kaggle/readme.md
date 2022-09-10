@@ -69,8 +69,8 @@ Further, each of the obtained sets of scores is divided into training (train, us
 
 <div align="center"><h1 align="center"> $$MAPE = \frac{{1}}{n} \sum\limits_{i=1}^n\frac{y_{true_i} - y_{pred_i}}{y_{true_i}} * 100\% $$ </h1></div>
 
-where ###$y_{true_i}$### are the actual values of the forecast, and $y_{pred_i}$ are the predicted values.
-
+where $y_{true_i}$ are the actual values of the forecast, and $y_{pred_i}$ are the predicted values.
+<font color=#0099ff size=7 face=«Черное тело»>цвет = # 0099ff размер = 72 лицо = " "</font>
 <div align="center"><h3 align="center"> CONCLUSIONS: </h3></div>
 
 1. My first machine learning case was created: the dataset was cleaned, several new features were extracted from it and data for model training was prepared.
