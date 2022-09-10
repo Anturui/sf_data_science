@@ -1,8 +1,8 @@
 <div align="center"> <h1 align="center"> Analysis of hotel ratings data from the website booking.com </h1> </div>
 <div align="center"> <h3 align="center"> by Aleksey Kolychev </h3> </div>
 
-<div style="font-size: 2em;"> Case study: creating the first model using machine learning algorithms.</div>
-
+<div style="font-size: 40px;"> Case study: creating the first model using machine learning algorithms.</div>
+<div align="justify"> </div>
 RESULTS OF WORK ON THIS PROJECT:
 1. The first model based on machine learning algorithms has been created
 2. Took part in a competition on Kaggle (score: 11.51996)
