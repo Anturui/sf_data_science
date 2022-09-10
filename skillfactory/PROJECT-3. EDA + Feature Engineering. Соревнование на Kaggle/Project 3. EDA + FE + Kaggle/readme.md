@@ -71,7 +71,7 @@ Further, each of the obtained sets of scores is divided into training (train, us
 
 where $y_{true_i}$ are the actual values of the forecast, and $y_{pred_i}$ are the predicted values.
 <font color=#0099ff size=7 face=«Черное тело»>цвет = # 0099ff размер = 72 лицо = " "</font>
-<div align="center"><h3 align="center"> CONCLUSIONS: </h3></div>
+<div align="center"><h3 align="center"> CONCLUSIONS: </h3></div>1
 
 1. My first machine learning case was created: the dataset was cleaned, several new features were extracted from it and data for model training was prepared.
 2. I took part in a machine learning competition on [Kaggle](https://www.kaggle.com/competitions/sf-booking/leaderboard).
