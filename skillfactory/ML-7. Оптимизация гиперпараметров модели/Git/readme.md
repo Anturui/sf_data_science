@@ -4,7 +4,6 @@
 ### [Link to the dataset](https://lms.skillfactory.ru/assets/courseware/v1/9f2add5bca59f8c4df927432d605fff3/asset-v1:SkillFactory+DSPR-2.0+14JULY2021+type@asset+block/_train_sem09__1_.zip)
 
 - The practice is based on the Kaggle competition: Prediction of a Biological Reaction.
-
 - The data is presented in CSV format.  Each row represents a molecule. 
 
 <div align="center"> <h2 align="center"> Description of the dataset </h2> </div> 
@@ -24,3 +23,9 @@
 2. Next, the selection of hyperparameters is made using basic and advanced optimization methods.
 3. Four methods were used: GridSearchCV, Randomized Search CV, Hyperopt, Optuna (at least once).
 4. The maximum number of iterations does not exceed 50.
+
+<div align="center"> <h2 align="center">  CONCLUSIONS </h2> </div>
+1. Four optimization methods were used to find the optimal values of the model parameters: GRIDSEARCHCV, RANDOMIZEDSEARCHCV, HYPEROPT (Tree-Structured Parzen Estimators algorithm) and Optuna.
+2. To reduce the optimization time, the ranges and the number of values of categorical parameters were reduced (for example, the method of finding the maximum of the likelihood function in logistic regression)
+3. On all types of optimization, higher scores (f1-world) are observed for Random Forest than for logistic regression
+4. The classical GridSearchCV method showed the longest operating time even with relatively small ranges of model parameters
