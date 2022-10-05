@@ -3,7 +3,7 @@
 
 ### [Link to the dataset](https://lms.skillfactory.ru/assets/courseware/v1/9f2add5bca59f8c4df927432d605fff3/asset-v1:SkillFactory+DSPR-2.0+14JULY2021+type@asset+block/_train_sem09__1_.zip)
 
-- The practice is based on the Kaggle competition: Prediction of a Biological Reaction.
+- The practice is based on the [***Kaggle competition: Prediction of a Biological Reaction***](https://www.kaggle.com/c/bioresponse).
 - The data is presented in CSV format.  Each row represents a molecule. 
 
 <div align="center"> <h2 align="center"> Description of the dataset </h2> </div> 
