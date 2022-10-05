@@ -8,3 +8,17 @@
 - The data is presented in CSV format.  Each row represents a molecule. 
 
 <div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The first Activity column contains experimental data describing the actual biological response [0, 1]; The remaining columns D1-D1776 represent molecular descriptors — these are calculated properties that can capture some characteristics of the molecule, such as size, shape or composition of elements.</div>
+
+
+
+<div align="center"> <h2 align="center"> Initial data </h2> </div>
+
+- No preprocessing is required, the data is already encoded and normalized.
+- F1-score is used as a metric.
+
+<div align="center"> <h2 align="center"> Results </h2> </div>
+
+1. Two models were trained: "logistic regression" and "random forest".
+2. Next, the selection of hyperparameters is made using basic and advanced optimization methods.
+3. Four methods were used: GridSearchCV, Randomized Search CV, Hyperopt, Optuna (at least once).
+4. The maximum number of iterations does not exceed 50.
