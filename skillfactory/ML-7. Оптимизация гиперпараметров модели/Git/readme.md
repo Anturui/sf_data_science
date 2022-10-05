@@ -7,6 +7,8 @@
 
 - The data is presented in CSV format.  Each row represents a molecule. 
 
+<div align="center"> <h2 align="center"> Description of the dataset </h2> </div> 
+
 <div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The first Activity column contains experimental data describing the actual biological response [0, 1]; The remaining columns D1-D1776 represent molecular descriptors — these are calculated properties that can capture some characteristics of the molecule, such as size, shape or composition of elements.</div>
 
 
