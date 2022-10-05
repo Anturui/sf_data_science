@@ -1,0 +1,2 @@
+<div align="center"> <h1 align="center"> It is necessary to predict the biological response of molecules (column 'Activity') by their chemical composition (columns D1-D1776) </h1> </div>
+<div align="center"> <h3 align="center"> by Aleksey Kolychev </h3> </div>
