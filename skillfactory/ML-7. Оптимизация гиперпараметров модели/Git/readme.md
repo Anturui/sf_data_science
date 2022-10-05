@@ -1,4 +1,4 @@
-<div align="center"> <h1 align="center"> It is necessary to predict the biological response of molecules (column 'Activity') by their chemical composition (columns D1-D1776) </h1> </div>
+<div align="center"> <h1 align="center"> Prediction of the biological response of molecules by their chemical composition </h1> </div>
 <div align="center"> <h3 align="center"> by Aleksey Kolychev </h3> </div>
 
 ### [Link to the dataset](https://lms.skillfactory.ru/assets/courseware/v1/9f2add5bca59f8c4df927432d605fff3/asset-v1:SkillFactory+DSPR-2.0+14JULY2021+type@asset+block/_train_sem09__1_.zip)
