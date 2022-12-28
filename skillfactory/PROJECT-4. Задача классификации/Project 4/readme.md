@@ -24,12 +24,7 @@
 3. Four methods were used: GridSearchCV, Randomized Search CV, Hyperopt, Optuna (at least once).
 4. The maximum number of iterations does not exceed 50.
 
-<div align="center"> <h2 align="center">  CONCLUSIONS </h2> </div>
 
-1. <div align="justify"> Four optimization methods were used to find the optimal values of the model parameters: GRIDSEARCHCV, RANDOMIZEDSEARCHCV, HYPEROPT (Tree-Structured Parzen Estimators algorithm) and Optuna. </div>
-2. <div align="justify">To reduce the optimization time, the ranges and the number of values of categorical parameters were reduced (for example, the method of finding the maximum of the likelihood function in logistic regression)</div>
-3. <div align="justify">On all types of optimization, higher scores (f1-world) are observed for Random Forest than for logistic regression</div>
-4. <div align="justify">The classical GridSearchCV method showed the longest operating time even with relatively small ranges of model parameters </div>
 
 <div align="center"> <h2 align="center"> Description of the dataset </h2> </div>
 <div align="center"> <h3 align="center"> Signs that are in the dataset </h3> </div>
@@ -58,3 +53,12 @@
 poutcome (результат прошлой маркетинговой кампании).
 
 <div align="justify"> И, разумеется, наша целевая переменная **deposit**, которая определяет, согласится ли клиент открыть депозит в банке. Именно её мы будем пытаться предсказать в данном кейсе. </div>
+
+<div align="center"> <h2 align="center">  CONCLUSIONS </h2> </div>
+
+1. <div align="justify"> Four optimization methods were used to find the optimal values of the model parameters: GRIDSEARCHCV, RANDOMIZEDSEARCHCV, HYPEROPT (Tree-Structured Parzen Estimators algorithm) and Optuna. </div>
+2. <div align="justify">To reduce the optimization time, the ranges and the number of values of categorical parameters were reduced (for example, the method of finding the maximum of the likelihood function in logistic regression)</div>
+3. <div align="justify">On all types of optimization, higher scores (f1-world) are observed for Random Forest than for logistic regression</div>
+4. <div align="justify">The classical GridSearchCV method showed the longest operating time even with relatively small ranges of model parameters </div>
+
+
