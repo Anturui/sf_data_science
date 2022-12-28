@@ -26,7 +26,8 @@
 
 
 <div align="center"> <h2 align="center"> Description of the dataset </h2> </div>
-<div align="center"> <h3 align="center"> Signs that are in the dataset </h3> </div>
+
+Signs that are in the dataset:
 
 - **age** (age);
 - **job** (field of employment);
@@ -37,14 +38,14 @@
 - **loan** (is there a loan for personal needs);
 - **balance** (balance).
 
-<div align="center"> <h3 align="center"> Data related to the last contact in the context of the current marketing campaign: </h3> </div>
+ ### Data related to the last contact in the context of the current marketing campaign: 
 
 - **contact** (the type of contact with the client);
 - **month** (the month in which the last contact was made);
 - **day** (the day on which the last contact was made);
 - **duration** (contact duration in seconds).
 
-<div align="center"> <h3 align="center"> Other signs: </h3> </div>
+ ### Other signs:
 
 - **campaign** (number of contacts with this client during the current campaign);
 - **pdays** (the number of missed days from the last marketing campaign to the contact in the current campaign);
@@ -60,7 +61,7 @@ poutcome (the result of the last marketing campaign).
 3. <div align="justify">On all types of optimization, higher scores (f1-world) are observed for Random Forest than for logistic regression</div>
 4. <div align="justify">The classical GridSearchCV method showed the longest operating time even with relatively small ranges of model parameters </div>
 
-<div align="center"> <h2 align="center">  Глобальные выводы </h2> </div>
+<div align="center"> <h2 align="center">  GLOBAL CONCLUSIONS </h2> </div>
 
 1. <div align="justify"> The stages of constructing a model for classifying real bank customers into those who will open a deposit and those who will not. </div>
 2. <div align="justify">The initial data processing was carried out, within the framework of which omissions and outliers were processed. </div>
