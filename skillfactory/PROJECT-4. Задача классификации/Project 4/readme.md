@@ -28,30 +28,30 @@
 <div align="center"> <h2 align="center"> Description of the dataset </h2> </div>
 <div align="center"> <h3 align="center"> Signs that are in the dataset </h3> </div>
 
-- **age** (возраст);
-- **job** (сфера занятости);
-- **marital** (семейное положение);
-- **education** (уровень образования);
-- **default** (имеется ли просроченный кредит);
-- **housing** (имеется ли кредит на жильё);
-- **loan** (имеется ли кредит на личные нужды);
-- **balance** (баланс).
+- **age** (age);
+- **job** (field of employment);
+- **marital** (marital status);
+- **education** (level of education);
+- **default** (is there an overdue loan);
+- **housing** (is there a loan for housing);
+- **loan** (is there a loan for personal needs);
+- **balance** (balance).
 
-<div align="center"> <h3 align="center"> Данные, связанные с последним контактом в контексте текущей маркетинговой кампании: </h3> </div>
+<div align="center"> <h3 align="center"> Data related to the last contact in the context of the current marketing campaign: </h3> </div>
 
-- **contact** (тип контакта с клиентом);
-- **month** (месяц, в котором был последний контакт);
-- **day** (день, в который был последний контакт);
-- **duration** (продолжительность контакта в секундах).
+- **contact** (the type of contact with the client);
+- **month** (the month in which the last contact was made);
+- **day** (the day on which the last contact was made);
+- **duration** (contact duration in seconds).
 
-<div align="center"> <h3 align="center"> Прочие признаки: </h3> </div>
+<div align="center"> <h3 align="center"> Other signs: </h3> </div>
 
-- **campaign** (количество контактов с этим клиентом в течение текущей кампании);
-- **pdays** (количество пропущенных дней с момента последней маркетинговой кампании до контакта в текущей кампании);
-- **previous** (количество контактов до текущей кампании)
-poutcome (результат прошлой маркетинговой кампании).
+- **campaign** (number of contacts with this client during the current campaign);
+- **pdays** (the number of missed days from the last marketing campaign to the contact in the current campaign);
+- **previous** (the number of contacts before the current campaign)
+poutcome (the result of the last marketing campaign).
 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; И, разумеется, наша целевая переменная *deposit*, которая определяет, согласится ли клиент открыть депозит в банке. Именно её мы будем пытаться предсказать в данном кейсе.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; And, of course, our target variable *deposit*, which determines whether the client agrees to open a deposit in the bank. This is what we will try to predict in this case.
 
 <div align="center"> <h2 align="center">  CONCLUSIONS </h2> </div>
 
@@ -62,12 +62,11 @@ poutcome (результат прошлой маркетинговой камп�
 
 <div align="center"> <h2 align="center">  Глобальные выводы </h2> </div>
 
-1. <div align="justify"> Проведены этапы построения модели классификации клиентов реального банка на тех, кто откроет депозит, и тех, кто не откроет. </div>
-2. Проведена первичная обработка данных, в рамках которой были обработаны пропуски и выбросы. </div>
-3. Проведен Разведывательный анализ данных (EDA). В результате обнаружены первые закономерности и выдвинуты гипотезы о зависимостях в данных. </div>
-4. Произведен отбор и преобразование признаков. Были перекодированы и преобразованы данные, чтобы их можно было использовать при решении задачи классификации. </div>
-5. Была решена задача классификации методами логистической регрессия и решающих деревьев.  </div>
-6. Была решена задача классификации с применением ансамблей моделей (градиентный бустинг и стекинг) с поиском оптимальных параметров при помощи optuna и grid search.</div>
-7. Получены наилучшие метрики классификации: f1 и Accuracy на тесте = 0.82 и 0.83 соответственно. </div>
-
+1. <div align="justify"> The stages of constructing a model for classifying real bank customers into those who will open a deposit and those who will not. </div>
+2. <div align="justify">The initial data processing was carried out, within the framework of which omissions and outliers were processed. </div>
+3. <div align="justify">An Intelligence analysis of the data (EDA) was carried out. As a result, the first patterns were discovered and hypotheses about dependencies in the data were put forward. </div>
+4. <div align="justify">The selection and transformation of features has been carried out. The data was recoded and transformed so that it could be used in solving the classification problem. </div>
+5. <div align="justify"> The classification problem was solved by the methods of logistic regression and decision trees. </div>
+6. <div align="justify"> The classification problem was solved using ensembles of models (gradient boosting and stacking) with the search for optimal parameters using optuna and grid search.</div>
+7. <div align="justify"> The best classification metrics were obtained: f1 and Accuracy on the test = 0.82 and 0.83, respectively. </div>
 
