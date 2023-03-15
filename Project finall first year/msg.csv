@@ -1,0 +1,13 @@
+,0,1
+0,message_id,230
+1,from,"{'id': 5647733703, 'is_bot': False, 'first_name': 'Анна', 'username': 'Annette889', 'language_code': 'ru'}"
+2,chat,"{'id': 5647733703, 'first_name': 'Анна', 'username': 'Annette889', 'type': 'private'}"
+3,date,1678892816
+4,forward_from_chat,"{'id': -1001475672509, 'title': '80 ЧУДЕС СВЕТА 🌍', 'username': 'wondersofword', 'type': 'channel'}"
+5,forward_from_message_id,589
+6,forward_date,1674489780
+7,video,"{'duration': 8, 'width': 1080, 'height': 1920, 'file_name': 'saintmiichael_2966712283839605152.mp4', 'mime_type': 'video/mp4', 'thumbnail': {'file_id': 'AAMCBQADGQEAA-ZkEbTg8OA482VETR_LcNLbyEfL8QAC1QYAAgKkoVfVmcMjoDFcxgEAB20AAy8E', 'file_unique_id': 'AQAD1QYAAgKkoVdy', 'file_size': 19949, 'width': 180, 'height': 320}, 'thumb': {'file_id': 'AAMCBQADGQEAA-ZkEbTg8OA482VETR_LcNLbyEfL8QAC1QYAAgKkoVfVmcMjoDFcxgEAB20AAy8E', 'file_unique_id': 'AQAD1QYAAgKkoVdy', 'file_size': 19949, 'width': 180, 'height': 320}, 'file_id': 'BAACAgUAAxkBAAPmZBG04PDgOPNlRE0fy3DS28hHy_EAAtUGAAICpKFX1ZnDI6AxXMYvBA', 'file_unique_id': 'AgAD1QYAAgKkoVc', 'file_size': 3661917}"
+8,caption,"Манхэттен
+
+80 ЧУДЕС СВЕТА🌍"
+9,caption_entities,"[{'type': 'text_link', 'offset': 11, 'length': 16, 'url': 'https://t.me/wondersofword'}]"
