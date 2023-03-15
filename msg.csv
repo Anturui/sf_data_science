@@ -1,0 +1,17 @@
+,0,1
+0,message_id,261
+1,from,"{'id': 1564036960, 'is_bot': False, 'first_name': 'Алексей', 'last_name': 'Колычев', 'username': 'Anturui', 'language_code': 'ru'}"
+2,chat,"{'id': 1564036960, 'first_name': 'Алексей', 'last_name': 'Колычев', 'username': 'Anturui', 'type': 'private'}"
+3,date,1678897180
+4,forward_from_chat,"{'id': -1001776336002, 'title': 'МОЯ БОЛЬШАЯ СТРАНА 🇷🇺', 'type': 'channel'}"
+5,forward_from_message_id,4819
+6,forward_date,1667943486
+7,video,"{'duration': 24, 'width': 576, 'height': 1024, 'mime_type': 'video/mp4', 'thumbnail': {'file_id': 'AAMCAgADGQEAAgEFZBHF7FZMJdSvUkjVHOtVO31ktBsAAoYpAAJrk1lLYWe0hP-qKmQBAAdtAAMvBA', 'file_unique_id': 'AQADhikAAmuTWUty', 'file_size': 8364, 'width': 180, 'height': 320}, 'thumb': {'file_id': 'AAMCAgADGQEAAgEFZBHF7FZMJdSvUkjVHOtVO31ktBsAAoYpAAJrk1lLYWe0hP-qKmQBAAdtAAMvBA', 'file_unique_id': 'AQADhikAAmuTWUty', 'file_size': 8364, 'width': 180, 'height': 320}, 'file_id': 'BAACAgIAAxkBAAIBBWQRxexWTCXUr1JI1RzrVTt9ZLQbAAKGKQACa5NZS2FntIT_qipkLwQ', 'file_unique_id': 'AgADhikAAmuTWUs', 'file_size': 4301677}"
+8,caption,"🗺Россия 🇷🇺, Москва
+
+Ночные покатушки по Москве
+
+©️nata.singer
+
+Поиск по всем городам России 🇷🇺"
+9,caption_entities,"[{'type': 'custom_emoji', 'offset': 0, 'length': 2, 'custom_emoji_id': '5316811544103755058'}, {'type': 'bold', 'offset': 2, 'length': 7}, {'type': 'bold', 'offset': 9, 'length': 4}, {'type': 'custom_emoji', 'offset': 9, 'length': 4, 'custom_emoji_id': '5303540632030026372'}, {'type': 'bold', 'offset': 13, 'length': 8}, {'type': 'text_link', 'offset': 66, 'length': 33, 'url': 'https://t.me/info_tur/30'}]"
