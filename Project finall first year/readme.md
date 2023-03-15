@@ -81,10 +81,10 @@
 <div align="center"> <h2 align="center"> Описание датасетов </h2> </div>
 
 ***global_data_prep*** - исходный датасет с данными по постам, собранными при помощи библиотеки telethone
-### [Исходный датасет](https://drive.google.com/file/d/1SUDo5XR1wiGO2JvqsaIr8ZixXQW9QtCx/view?usp=share_link)
+#### [Исходный датасет](https://drive.google.com/file/d/1SUDo5XR1wiGO2JvqsaIr8ZixXQW9QtCx/view?usp=share_link)
 
 ***grand_data_zero_3*** - обработанный датасет с новыми признаками, полученными из исходного датасета
-### [Обработанный датасет](https://drive.google.com/file/d/1bOAwLDo-ZP2XVJTnVWz6VphYcC8sdpu5/view?usp=sharing)
+#### [Обработанный датасет](https://drive.google.com/file/d/1bOAwLDo-ZP2XVJTnVWz6VphYcC8sdpu5/view?usp=sharing)
 
 <div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Датасеты добавляете в директорию с проектом и работаете далее, если есть что дополнить=)</div>
 
