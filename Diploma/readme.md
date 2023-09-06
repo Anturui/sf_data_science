@@ -47,18 +47,14 @@
 <div align="center"> <h2 align="center"> 5. Подготовка к презентации проекта </h2> </div>
 <div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; По проекту была подготовлена презентация, которая находится в репозитории проекта.</div>
 
-<div align="center"> <h2 align="center"> 6*. Кластеризация </h2> </div>
-
-<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Была предпринята попытка кластеризирвоать объекты датасета, однако, ни к чему это не привело (Файл Clusters). DBScan указал на необходимость создании 10 тыс. кластеров для наибольшего коэффициента Силуэта. </div>
-
 
 <div align="center"> <h2 align="center"> Ссылки на видео </h2> </div>
 
 ***global_data_prep*** - видео групповых танцев (вранение поз танцоров)
-#### [Исходный датасет](https://www.youtube.com/watch?v=Qb-ZHN4hT20)
+#### [Видео танцы](https://www.youtube.com/watch?v=Qb-ZHN4hT20)
 
 ***grand_data_zero_3*** - видео групповых занятий по пилатес (вранение поз выполняющих упражнение)
-#### [Обработанный датасет](https://www.youtube.com/watch?v=lvn3vG6sm0o&t=678s)
+#### [Видео пилатес](https://www.youtube.com/watch?v=lvn3vG6sm0o&t=678s)
 
 
 
